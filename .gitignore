@@ -113,3 +113,7 @@ yarn-error.log
 
 apps/mobile-e2e/artifacts
 apps/mobile/ios/Pods
+
+# Generated Docusaurus files
+.docusaurus/
+.cache-loader/
