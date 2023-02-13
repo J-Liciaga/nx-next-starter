@@ -9,7 +9,9 @@
 		"workspace:format": "lint-staged",
 		"workspace:affected": "nx affected",
 		"workspace:semantic-release": "semantic-relase --branches main",
-		"start:web": "nx serve web"
+		"start:web": "nx serve web",
+		"start:mobile-android": "nx run-android mobile",
+		"start:mobile-ios": "nx run-ios mobile"
 	},
 	"private": true,
 	"dependencies": {
